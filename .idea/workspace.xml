@@ -2,10 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b55b37ef-5e4d-46e0-81a3-25d82a2bd305" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/darkyoung.github.com.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node_modules/component-emitter/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/component-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node_modules/component-emitter/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/component-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/.npmignore" afterPath="$PROJECT_DIR$/node_modules/dateformat/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/.vs/ProjectSettings.json" afterPath="$PROJECT_DIR$/node_modules/dateformat/.vs/ProjectSettings.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/.vs/config/applicationhost.config" afterPath="$PROJECT_DIR$/node_modules/dateformat/.vs/config/applicationhost.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/LICENSE" afterPath="$PROJECT_DIR$/node_modules/dateformat/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/Readme.md" afterPath="$PROJECT_DIR$/node_modules/dateformat/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/dateformat/lib/dateformat.js" afterPath="$PROJECT_DIR$/node_modules/dateformat/lib/dateformat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/orchestrator/.npmignore" afterPath="$PROJECT_DIR$/node_modules/orchestrator/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/orchestrator/LICENSE" afterPath="$PROJECT_DIR$/node_modules/orchestrator/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/orchestrator/README.md" afterPath="$PROJECT_DIR$/node_modules/orchestrator/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/orchestrator/index.js" afterPath="$PROJECT_DIR$/node_modules/orchestrator/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/orchestrator/lib/runTask.js" afterPath="$PROJECT_DIR$/node_modules/orchestrator/lib/runTask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-hrtime/.jshintignore" afterPath="$PROJECT_DIR$/node_modules/pretty-hrtime/.jshintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-hrtime/.npmignore" afterPath="$PROJECT_DIR$/node_modules/pretty-hrtime/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-hrtime/LICENSE" afterPath="$PROJECT_DIR$/node_modules/pretty-hrtime/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-hrtime/README.md" afterPath="$PROJECT_DIR$/node_modules/pretty-hrtime/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/pretty-hrtime/index.js" afterPath="$PROJECT_DIR$/node_modules/pretty-hrtime/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/resolve-url/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/readme.md" afterPath="$PROJECT_DIR$/node_modules/resolve-url/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/resolve-url.js" afterPath="$PROJECT_DIR$/node_modules/resolve-url/resolve-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-url/test/resolve-url.js" afterPath="$PROJECT_DIR$/node_modules/resolve-url/test/resolve-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequencify/.npmignore" afterPath="$PROJECT_DIR$/node_modules/sequencify/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequencify/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/sequencify/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequencify/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequencify/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequencify/README.md" afterPath="$PROJECT_DIR$/node_modules/sequencify/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequencify/index.js" afterPath="$PROJECT_DIR$/node_modules/sequencify/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/urix/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/index.js" afterPath="$PROJECT_DIR$/node_modules/urix/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/readme.md" afterPath="$PROJECT_DIR$/node_modules/urix/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/urix/test/index.js" afterPath="$PROJECT_DIR$/node_modules/urix/test/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,28 +50,74 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="108">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1551968357813" expanded="true" signature="1619:2377" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="1632:2366" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2409:8760" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2435:4040" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2463:2537" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2568:4029" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2603:2710" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2745:3133" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="2971:3115" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3168:3710" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3360:3491" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3512:3692" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3608:3687" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3745:3852" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="3887:4015" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4063:8753" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4094:8742" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4112:4358" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4198:4340" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4375:4622" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4451:4604" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4639:6618" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4727:6600" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4752:5332" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="4832:5147" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="5014:5117" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="5357:5993" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="5437:5770" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="5637:5740" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6018:6578" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6098:6459" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6326:6429" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6635:8728" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6755:7556" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="6780:7024" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="7049:7323" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="7348:7534" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="7617:8244" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="7642:7806" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="7831:7999" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="8024:8222" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="8305:8710" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="8330:8505" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="8530:8688" ph="..." />
+                <marker date="1551968357813" expanded="true" signature="8769:8779" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-b.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style-b.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
+              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-b.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style-b.css">
+      <file leaf-file-name="theme2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/theme2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +126,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/theme2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+            <state relative-caret-position="252">
+              <caret line="42" column="96" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="96" />
               <folding>
                 <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -68,41 +145,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sideBookmarks.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/html/theme2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-tag.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/css/style-tag.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1746">
+              <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sideBookmarks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/include/sideBookmarks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="486">
+              <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-tag.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style-tag.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/css/style.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1345">
-              <caret line="126" column="10" lean-forward="false" selection-start-line="126" selection-start-column="1" selection-end-line="126" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fontello-common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/css/fontello-common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="36">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -116,6 +203,7 @@
         <option value="Sass File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -137,16 +225,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/html/style_c/index.html" />
         <option value="$PROJECT_DIR$/src/css/style-c.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dist/css/style-b.css" />
         <option value="$PROJECT_DIR$/dist/css/fontello-common.css" />
         <option value="$PROJECT_DIR$/src/css/style-b.scss" />
         <option value="$PROJECT_DIR$/src/html/style_b/index.html" />
         <option value="$PROJECT_DIR$/src/css/style-b.css" />
-        <option value="$PROJECT_DIR$/src/include/sideBookmarks.html" />
         <option value="$PROJECT_DIR$/src/css/style-tag.scss" />
         <option value="$PROJECT_DIR$/src/html/style_b/index.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dist/html/theme2/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
+        <option value="$PROJECT_DIR$/dist/css/style-tag.css" />
         <option value="$PROJECT_DIR$/src/html/theme2/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/include/sideBookmarks.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -156,10 +250,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="658" />
-    <option name="y" value="30" />
+    <option name="x" value="471" />
+    <option name="y" value="67" />
     <option name="width" value="1390" />
     <option name="height" value="965" />
   </component>
@@ -189,11 +286,6 @@
             <path>
               <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -205,20 +297,20 @@
             <path>
               <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="theme2" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="darkyoung.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="style-tag.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="darkyoung.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +355,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/html" />
       <recent name="$PROJECT_DIR$/dist/css" />
     </key>
   </component>
@@ -288,7 +381,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551942933471</updated>
-      <workItem from="1551942934980" duration="18511000" />
+      <workItem from="1551942934980" duration="23910000" />
     </task>
     <task id="LOCAL-00001" summary="添加新的CV样式">
       <created>1551963047796</created>
@@ -297,11 +390,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551963047797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除Gemfile">
+      <created>1551963254794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551963254794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="链接重定向">
+      <created>1551968401819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551968401819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18511000" />
+    <option name="totallyTimeSpent" value="23910000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -313,9 +420,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="30" width="1390" height="965" extended-state="0" />
+    <frame x="471" y="67" width="1390" height="965" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1761194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.49786097" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.50213903" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -342,7 +449,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加新的CV样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加新的CV样式" />
+    <MESSAGE value="删除Gemfile" />
+    <MESSAGE value="链接重定向" />
+    <option name="LAST_COMMIT_MESSAGE" value="链接重定向" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -383,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style-c.scss">
+    <entry file="file://$PROJECT_DIR$/src/css/theme3.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -410,12 +519,12 @@
     <entry file="file://$PROJECT_DIR$/dist/css/fontello-common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style-b.css">
+    <entry file="file://$PROJECT_DIR$/src/css/theme2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -423,10 +532,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style-b.scss">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -434,7 +551,31 @@
     <entry file="file://$PROJECT_DIR$/src/css/style-tag.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/theme2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/theme2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -447,28 +588,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/html/theme2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/style-tag.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="97" column="33" lean-forward="true" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1551968357813" expanded="true" signature="1619:2377" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="1632:2366" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2409:8760" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2435:4040" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2463:2537" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2568:4029" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2603:2710" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2745:3133" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="2971:3115" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3168:3710" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3360:3491" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3512:3692" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3608:3687" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3745:3852" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="3887:4015" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4063:8753" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4094:8742" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4112:4358" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4198:4340" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4375:4622" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4451:4604" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4639:6618" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4727:6600" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4752:5332" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="4832:5147" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="5014:5117" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="5357:5993" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="5437:5770" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="5637:5740" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6018:6578" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6098:6459" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6326:6429" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6635:8728" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6755:7556" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="6780:7024" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="7049:7323" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="7348:7534" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="7617:8244" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="7642:7806" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="7831:7999" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="8024:8222" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="8305:8710" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="8330:8505" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="8530:8688" ph="..." />
+            <marker date="1551968357813" expanded="true" signature="8769:8779" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/theme2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        <state relative-caret-position="252">
+          <caret line="42" column="96" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="96" />
           <folding>
             <element signature="n#script#1;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/include/sideBookmarks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="486">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/include/sideBookmarks.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
