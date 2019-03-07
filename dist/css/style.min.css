@@ -2,6 +2,9 @@
     color: #fff
 }
 
+.sidebar dt > i {
+    font-size: 80%;
+}
 .main-info dd a, .main-info dd span, .main-info dd strong, h3 img, h3 span, h4 a, h4 span, iframe {
     vertical-align: middle
 }
