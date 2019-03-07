@@ -1,0 +1,142 @@
+$tagBackground: #fcebb6;
+$tagColor: #5e412f;
+$tagSepColor: #f07818;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: PingFang TC, Avenir Next, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-tags {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  color: $tagColor;
+  overflow: hidden;
+  li {
+    margin-top: 1em;
+    background: $tagBackground;
+    padding: .1em;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8%;
+    transition: .3s;
+  }
+  .left-tags, .right-tags {
+    position: relative;
+    width: 4em;
+    i {
+      font-size: 1.3em;
+      margin: auto;
+      transition: all 0.6s;
+      &:hover {
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        -o-transform: scale(1.4);
+        transform: scale(1.4);
+      }
+    }
+  }
+  .separator {
+    display: block;
+    width: 2px;
+    height: 2.5em;
+    background: $tagColor;
+    opacity: .8;
+    border-radius: 35%;
+
+  }
+
+  .left-tags {
+    float: left;
+    .separator {
+      margin-right: .1em;
+    }
+  }
+
+  .right-tags {
+    float: right;
+    .separator {
+      margin-left: .1em;
+    }
+  }
+
+  .tag-left {
+    transform: translate(-3.2em, 0);
+    &:hover {
+      -webkit-transform: translate(-0.2em, 0);
+      -moz-transform: translate(-0.2em, 0);
+      -ms-transform: translate(-0.2em, 0);
+      -o-transform: translate(-0.2em, 0);
+      transform: translate(-0.2em, 0);
+    }
+  }
+
+  .tag-right {
+    transform: translate(3.2em, 0);
+    &:hover {
+      -webkit-transform: translate(.2em, 0);
+      -moz-transform: translate(.2em, 0);
+      -ms-transform: translate(.2em, 0);
+      -o-transform: translate(.2em, 0);
+      transform: translate(.2em, 0);
+    }
+  }
+
+  .left-hand {
+    width: 5em;
+    height: 2em;
+    position: fixed;
+    top: 2.5em;
+    left: 5em;
+    transition: .6s;
+    &:hover {
+      -webkit-transform: translate(-2em, 0);
+      -moz-transform: translate(-2em, 0);
+      -ms-transform: translate(-2em, 0);
+      -o-transform: translate(-2em, 0);
+      transform: translate(-2em, 0);
+    }
+
+  }
+
+  .right-hand {
+    width: 5em;
+    height: 2em;
+    position: fixed;
+    top: 2.5em;
+    right: 5em;
+    transition: .6s;
+    &:hover {
+      -webkit-transform: translate(2em, 0);
+      -moz-transform: translate(2em, 0);
+      -ms-transform: translate(2em, 0);
+      -o-transform: translate(2em, 0);
+      transform: translate(2em, 0);
+    }
+    i{
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+
+
+
+
