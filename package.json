@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Wow, such a beautiful resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume, cv, darkyoung"
+  ],
+  "author": "DarkYoung",
+  "homepage": "darkyoung.cn",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^2.0.1"
+  }
+}
