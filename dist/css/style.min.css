@@ -2,9 +2,6 @@
     color: #fff
 }
 
-.sidebar dt > i {
-    font-size: .8em;
-}
 .main-info dd a, .main-info dd span, .main-info dd strong, h3 img, h3 span, h4 a, h4 span, iframe {
     vertical-align: middle
 }
@@ -123,7 +120,8 @@ h2 {
 }
 
 .side-info i {
-    margin-right: 3px
+    margin-right: 3px;
+    font-size: .8em;
 }
 
 .someRight dd {
