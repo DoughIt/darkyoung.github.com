@@ -29,6 +29,7 @@ body {
 
     a {
       color: $theme1-fifth-color;
+      word-break: break-all;
     }
 
     .title {
@@ -75,7 +76,7 @@ h2 {
 }
 
 .someRight dd {
-  margin-left: 25px;
+  margin-left: 2vw;
 }
 
 .main {
@@ -90,7 +91,7 @@ h2 {
     padding-right: 3vw;
     padding-left: 1vw;
     & > li {
-      padding-top: 20px;
+      padding-top: 1em;
     }
 
     dt {
@@ -103,7 +104,7 @@ h2 {
 
     dd {
       font-size: $main-font-size;
-      line-height: $main-font-size*1.5;
+      line-height: $main-font-size * 1.5;
       color: $theme1-third-color;
 
       strong {
@@ -131,8 +132,8 @@ iframe {
 
 h3 {
   font-size: $main-font-size;
-  margin: 0 0 15px 5px;
   color: $theme1-second-color;
+  margin-bottom: .2em;
   img {
     vertical-align: middle;
     height: 30px;
@@ -176,19 +177,19 @@ h5 a {
 }
 
 .circle {
-  height: 14px;
-  width: 14px;
+  height: .8em;
+  width: .8em;
   border-radius: 100%;
   background: $theme1-main-color;
   float: left;
   position: absolute;
-  left: -28px;
+  left: -1.75em;
   top: 5px;
 }
 
 .exp {
   border-left: 2px solid #{$theme1-main-color};
-  margin-left: 15px;
+  margin-left: .8vw;
 
   p {
     font-size: $third-font-size;
@@ -200,7 +201,7 @@ h5 a {
   & > li {
     position: relative;
     top: -5px;
-    margin: 0 0 20px 20px;
+    margin: 0 0 .8em 1.3em;
   }
 
   img {

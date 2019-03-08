@@ -1,6 +1,5 @@
 @import "style-tag.scss";
 
-
 body {
   background: #eee;
   min-width: $body-width;
@@ -20,14 +19,14 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
+  font-size: $second-font-size;
   color: $theme2-main-color;
   margin: 0 0 15px 5px;
 }
 
 h4 {
-  font-size: 16px;
-  line-height: 25px;
+  font-size: $third-font-size;
+  line-height: $third-font-size * 2;
   color: #005792;
   position: relative;
   bottom: 3px;
@@ -47,7 +46,7 @@ h4 {
   top: 0;
   bottom: 0;
   width: $side-width;
-  padding: 15px 15px 10000px;
+  padding: 15px 2vw 10000px;
   background: $theme2-main-color;
   color: $theme2-second-color;
   line-height: 1.5;
@@ -57,6 +56,7 @@ h4 {
   margin-bottom: -10000px;
   a {
     color: $theme2-second-color;
+    word-break: break-all;
   }
   .title {
     margin: 25px 0 20px;
@@ -64,21 +64,21 @@ h4 {
     img {
       display: block;
       margin: 0 auto 15px;
-      width: 120px;
+      width: 10vw;
     }
   }
   .side-info li {
     padding-top: 20px;
 
     dt {
-      font-size: 18px;
+      font-size: $second-font-size;
       color: #fff;
-      line-height: 40px;
+      line-height: $second-font-size * 2;
     }
     dd {
-      font-size: 16px;
-      line-height: 20px;
-      margin-left: 25px;
+      font-size: $third-font-size;
+      line-height: $third-font-size * 1.5;
+      margin-left: 2vw;
       margin-top: 3px;
       span {
         display: inline-block;
@@ -96,7 +96,7 @@ h4 {
   position: relative;
   left: $side-width;
   width: $main-width;
-  padding: 15px 20px 10000px;
+  padding: 15px 1vw 10000px;
   background: $theme2-second-color;
   margin-bottom: -10000px;
 
@@ -105,33 +105,32 @@ h4 {
     margin: auto;
 
     & > li {
-      padding-top: 20px;
+      padding-top: 1em;
       color: $theme2-main-color;
-      line-height: 30px;
-      margin: 0 0 15px -5px;
+      line-height: 1.5;
       i {
         margin-right: 3px;
       }
       dt ~ * {
-        margin-left: 30px;
+        margin-left: 3vw;
       }
 
       .exp-info {
-        margin-bottom: 2em;
+        margin-bottom: .5em;
       }
     }
 
     dt {
-      font-size: 1.3em;
+      font-size: $sixth-font-size;
       color: $theme2-main-color;
-      line-height: 40px;
+      line-height: $main-font-size * 1.5;
       border-bottom: 2px solid rgba(19, 51, 76, .6);
-      margin-bottom: 10px;
+      margin-bottom: 1vh;
     }
 
     dd {
-      font-size: 1.1em;
-      line-height: 27px;
+      font-size: $main-font-size;
+      line-height: $second-font-size * 1,5;
       color: $theme2-third-color;
     }
 
@@ -141,7 +140,7 @@ h4 {
       right: 5em;
       color: $theme2-main-color;
       vertical-align: middle;
-      font-size: 1.1em;
+      font-size: $second-font-size;
     }
     span {
       vertical-align: middle;
@@ -151,11 +150,96 @@ h4 {
       vertical-align: middle;
     }
     p {
-      font-size: 1em;
+      font-size: $third-font-size;
       color: $theme2-third-color;
     }
   }
 
 }
 
+@mixin adapt-size($main-font-size, $second-font-size, $third-font-size, $forth-font-size, $fifth-font-size, $sixth-font-size) {
+  .sidebar .side-info .someRight {
+    dt {
+      font-size: $second-font-size;
+      line-height: $second-font-size * 2;
+    }
+    dd {
+      font-size: $third-font-size;
+      line-height: $third-font-size * 1.5;
+    }
+  }
+  .container .main .main-info {
+    dt {
+      font-size: $sixth-font-size;
+      line-height: $sixth-font-size * 1.5;
+    }
+    dd {
+      font-size: $main-font-size;
+      line-height: $main-font-size * 1.5;
+    }
+    strong {
+      font-size: $second-font-size;
+    }
+    .exp-info p {
+      font-size: $third-font-size;
+      line-height: $third-font-size * 2;
+    }
+  }
+  h3 {
+    font-size: $main-font-size;
+  }
+  h4 {
+    font-size: $second-font-size;
+  }
+  h5 {
+    font-size: $third-font-size;
+    a {
+      font-size: $forth-font-size;
+    }
+  }
 
+}
+
+@media screen and (max-width: 1200px) {
+  @include adapt-size(
+          $main-font-size: 1em,
+          $second-font-size: .9em,
+          $third-font-size: .8em,
+          $forth-font-size: .6em,
+          $fifth-font-size: 1.4em,
+          $sixth-font-size: 1.2em
+  );
+}
+
+@media screen and (max-width: 1000px) {
+  @include adapt-size(
+          $main-font-size: .9em,
+          $second-font-size: .8em,
+          $third-font-size: .7em,
+          $forth-font-size: .5em,
+          $fifth-font-size: 1.3em,
+          $sixth-font-size: 1.1em
+  );
+}
+
+@media screen and (max-width: 800px) {
+  @include adapt-size(
+          $main-font-size: .8em,
+          $second-font-size: .7em,
+          $third-font-size: .6em,
+          $forth-font-size: .4em,
+          $fifth-font-size: 1.2em,
+          $sixth-font-size: 1em
+  );
+}
+
+@media screen and (max-width: 600px) {
+  @include adapt-size(
+          $main-font-size: .6em,
+          $second-font-size: .5em,
+          $third-font-size: .4em,
+          $forth-font-size: .2em,
+          $fifth-font-size: .8em,
+          $sixth-font-size: .7em
+  );
+}
