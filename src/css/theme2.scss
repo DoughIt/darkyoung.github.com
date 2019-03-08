@@ -1,25 +1,9 @@
-$mainColor: #f6f6e9;
-$sideColor: #014955;
+@import "style-tag.scss";
 
-$mainFontColor: #666;
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body {
   background: #eee;
-  font-family: PingFang TC, Avenir Next, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  min-width: 1080px;
-}
-
-ul, li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
+  min-width: $body-width;
 }
 
 h1, h2, h3, h3, h4, h5, dt, dd, p {
@@ -37,7 +21,7 @@ h2 {
 
 h3 {
   font-size: 19px;
-  color: $sideColor;
+  color: $theme2-main-color;
   margin: 0 0 15px 5px;
 }
 
@@ -53,7 +37,7 @@ h4 {
   position: relative;
   margin: 10px auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-  width: 1060px;
+  width: $container-width;
   overflow: hidden;
   border-radius: 4px;
 }
@@ -62,17 +46,17 @@ h4 {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 300px;
+  width: $side-width;
   padding: 15px 15px 10000px;
-  background: $sideColor;
-  color: $mainColor;
+  background: $theme2-main-color;
+  color: $theme2-second-color;
   line-height: 1.5;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: -10000px;
   a {
-    color: $mainColor;
+    color: $theme2-second-color;
   }
   .title {
     margin: 25px 0 20px;
@@ -110,19 +94,19 @@ h4 {
 
 .main {
   position: relative;
-  left: 300px;
-  width: 720px;
+  left: $side-width;
+  width: $main-width;
   padding: 15px 20px 10000px;
-  background: $mainColor;
+  background: $theme2-second-color;
   margin-bottom: -10000px;
 
   .main-info {
-    width: 700px;
+    width: 48vw;
     margin: auto;
 
     & > li {
       padding-top: 20px;
-      color: $sideColor;
+      color: $theme2-main-color;
       line-height: 30px;
       margin: 0 0 15px -5px;
       i {
@@ -139,7 +123,7 @@ h4 {
 
     dt {
       font-size: 1.3em;
-      color: $sideColor;
+      color: $theme2-main-color;
       line-height: 40px;
       border-bottom: 2px solid rgba(19, 51, 76, .6);
       margin-bottom: 10px;
@@ -148,14 +132,14 @@ h4 {
     dd {
       font-size: 1.1em;
       line-height: 27px;
-      color: $mainFontColor;
+      color: $theme2-third-color;
     }
 
     strong {
       position: relative;
       float: right;
       right: 5em;
-      color: $sideColor;
+      color: $theme2-main-color;
       vertical-align: middle;
       font-size: 1.1em;
     }
@@ -168,7 +152,7 @@ h4 {
     }
     p {
       font-size: 1em;
-      color: $mainFontColor;
+      color: $theme2-third-color;
     }
   }
 
