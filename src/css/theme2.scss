@@ -90,6 +90,12 @@ h4 {
     i {
       margin-right: 3px;
     }
+
+    .hobby {
+      border: 1.5px solid rgba(255, 255, 255, .8);
+      border-radius: 10%;
+      padding: .3em;
+    }
   }
 }
 
@@ -131,7 +137,7 @@ h4 {
 
     dd {
       font-size: $main-font-size;
-      line-height: $second-font-size * 1,5;
+      line-height: $second-font-size * 1, 5;
       color: $theme2-third-color;
     }
 
